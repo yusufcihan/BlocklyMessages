@@ -334,16 +334,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
 
     Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE_HELPURL = 'https://docs.kodular.io/blocks/logic#true';
     Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE_HELPURL = 'https://docs.kodular.io/blocks/logic#false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'true';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'false';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Returns the boolean true.';
-    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Returns the boolean false.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TRUE = 'doğru (true)';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_FALSE = 'yanlış (false)';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_TRUE = 'Boolean tipinde true yani doğru değerini döndürür.';
+    Blockly.Msg.LANG_LOGIC_BOOLEAN_TOOLTIP_FALSE = 'Boolean tipinde false yani yanlış değerini döndürür.';
 
 // Math Blocks.
-    Blockly.Msg.LANG_CATEGORY_MATH = 'Math';
+    Blockly.Msg.LANG_CATEGORY_MATH = 'Matematik';
     Blockly.Msg.LANG_MATH_NUMBER_HELPURL = 'https://docs.kodular.io/blocks/math#number';
-    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Report the number shown.';
-    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'number';
+    Blockly.Msg.LANG_MATH_NUMBER_TOOLTIP = 'Gösterilen sayıyı döndürür.';
+    Blockly.Msg.LANG_MATH_MUTATOR_ITEM_INPUT_NUMBER = 'sayı';
 
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL = '';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_EQ = 'https://docs.kodular.io/blocks/math#=';
@@ -352,16 +352,16 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_LTE = 'https://docs.kodular.io/blocks/math#lte';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GT = 'https://docs.kodular.io/blocks/math#gt';
     Blockly.Msg.LANG_MATH_COMPARE_HELPURL_GTE = 'https://docs.kodular.io/blocks/math#gte';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Return true if both numbers are equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Return true if both numbers are not equal to each other.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Return true if the first number is smaller\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Return true if the first number is smaller\n' +
-        'than or equal to the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Return true if the first number is greater\n' +
-        'than the second number.';
-    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Return true if the first number is greater\n' +
-        'than or equal to the second number.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_EQ = 'Eğer iki sayı birbirine eşit ise doğru döndürür.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_NEQ = 'Eğer iki sayı birbirine eşit değil ise doğru döndürür.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LT = 'Eğer ilk sayı ikinci sayıdan küçük ise\n' +
+        'doğru döndürür.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_LTE = 'Eğer ilk sayı ikinci sayıdan küçük veya eşit ise\n' +
+        'doğru döndürür.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GT = 'Eğer ilk sayı ikinci sayıdan büyük ise\n' +
+        'doğru döndürür.';
+    Blockly.Msg.LANG_MATH_COMPARE_TOOLTIP_GTE = 'Eğer ilk sayı ikinci sayıdan büyük veya eşit ise\n' +
+        'doğru döndürür.';
     Blockly.Msg.LANG_MATH_COMPARE_EQ = '=';
     Blockly.Msg.LANG_MATH_COMPARE_NEQ = '\u2260';
     Blockly.Msg.LANG_MATH_COMPARE_LT = '<';
@@ -374,52 +374,51 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_MULTIPLY = 'https://docs.kodular.io/blocks/math#multiply';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_DIVIDE = 'https://docs.kodular.io/blocks/math#divide';
     Blockly.Msg.LANG_MATH_ARITHMETIC_HELPURL_POWER = 'https://docs.kodular.io/blocks/math#exponent';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'Return the sum of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'Return the difference of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'Return the product of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'Return the quotient of the two numbers.';
-    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'Return the first number raised to\n' +
-        'the power of the second number.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_ADD = 'İki sayının toplamını döndürür.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MINUS = 'İki sayının farkını döndürür.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_MULTIPLY = 'İki sayının çarpımını döndürür.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_DIVIDE = 'İki sayının bölümünü döndürür.';
+    Blockly.Msg.LANG_MATH_ARITHMETIC_TOOLTIP_POWER = 'İkinci sayıyı birinci sayının kuvveti olarak hesaplar ve sonucu döndürür.';
     Blockly.Msg.LANG_MATH_ARITHMETIC_ADD = '+';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MINUS = '-';
     Blockly.Msg.LANG_MATH_ARITHMETIC_MULTIPLY = '*';
     Blockly.Msg.LANG_MATH_ARITHMETIC_DIVIDE = '/';
     Blockly.Msg.LANG_MATH_ARITHMETIC_POWER = '^';
 
-    /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'change';
-     Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'item';
-     Blockly.Msg.LANG_MATH_CHANGE_INPUT_BY = 'by';
-     Blockly.Msg.LANG_MATH_CHANGE_TOOLTIP = 'Add a number to variable "%1".';*/
+    /*Blockly.Msg.LANG_MATH_CHANGE_TITLE_CHANGE = 'değiştir';
+     Blockly.Msg.LANG_MATH_CHANGE_TITLE_ITEM = 'öğe';
+     Blockly.Msg.LANG_MATH_CHANGE_INPUT_BY = 'şu kadar';
+     Blockly.Msg.LANG_MATH_CHANGE_TOOLTIP = '"%1" adlı değişkene bir sayı ekle.';*/
 
 
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'square root';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'absolute';
-    Blockly.Msg.LANG_MATH_SINGLE_OP_NEG = 'neg';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ROOT = 'karekök';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_ABSOLUTE = 'mutlak';
+    Blockly.Msg.LANG_MATH_SINGLE_OP_NEG = 'negatif';
     Blockly.Msg.LANG_MATH_SINGLE_OP_LN = 'log';
     Blockly.Msg.LANG_MATH_SINGLE_OP_EXP = 'e^';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Return the square root of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ROOT = 'Sayının karekökünü döndürür.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ROOT = 'https://docs.kodular.io/blocks/math#sqrt';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Return the absolute value of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_ABS = 'Sayının mutlak değerini döndürür.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_ABS = 'https://docs.kodular.io/blocks/math#abs';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Return the negation of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_NEG = 'Sayının negatifini döndürür.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_NEG = 'https://docs.kodular.io/blocks/math#neg';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Return the natural logarithm of a number, i.e. the logarithm to the base e (2.71828...)';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_LN = 'Sayının doğal logaritmasını döndür, örnek olarak e (2.71828...) tabanından logaritma';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_LN ='https://docs.kodular.io/blocks/math#log';
-    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'Return e (2.71828...) to the power of a number.';
+    Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_EXP = 'E (2.71828...) sayısının belirtilen kuvvetini döndürür.';
     Blockly.Msg.LANG_MATH_SINGLE_HELPURL_EXP ='https://docs.kodular.io/blocks/math#e';
-    /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = 'Return 10 to the power of a number.';*/
+    /*Blockly.Msg.LANG_MATH_SINGLE_TOOLTIP_POW10 = '10 sayısının belirtilen kuvvetini döndürür.';*/
 
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Round a number up or down.';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_ROUND = 'Bir sayıyı yukarıya ya da aşağı yuvarla.';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_ROUND = 'https://docs.kodular.io/blocks/math#round';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Rounds the input to the smallest\n' +
-        'number not less then the input';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_CEILING = 'Girilen değeri, kendisinden küçük olmamak şartıyla\n' +
+        'en küçük sayıya yuvarlar.';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_CEILING =  'https://docs.kodular.io/blocks/math#ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Rounds the input to the largest\n' +
-        'number not greater then the input';
+    Blockly.Msg.LANG_MATH_ROUND_TOOLTIP_FLOOR = 'Girilen değeri, kendisinden büyük olmamak şartıyla\n' +
+        'en büyük sayıya yuvarlar.';
     Blockly.Msg.LANG_MATH_ROUND_HELPURL_FLOOR =  'https://docs.kodular.io/blocks/math#floor';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'round';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'ceiling';
-    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'floor';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_ROUND = 'yuvarla';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_CEILING = 'tavan';
+    Blockly.Msg.LANG_MATH_ROUND_OPERATOR_FLOOR = 'taban';
 
     Blockly.Msg.LANG_MATH_TRIG_SIN = 'sin';
     Blockly.Msg.LANG_MATH_TRIG_COS = 'cos';
@@ -430,163 +429,163 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_MATH_TRIG_ATAN2 = 'atan2';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_X = 'x';
     Blockly.Msg.LANG_MATH_TRIG_ATAN2_Y = 'y';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Provides the sine of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_SIN = 'Verilen açı derecesinin sinüsünü hesaplar.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_SIN = 'https://docs.kodular.io/blocks/math#sin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Provides the cosine of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_COS = 'Verilen açı derecesinin kosinüsünü hesaplar.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_COS = 'https://docs.kodular.io/blocks/math#cos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Provides the tangent of the given angle in degrees.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_TAN = 'Verilen açı derecesinin tanjantını hesaplar.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_TAN = 'https://docs.kodular.io/blocks/math#tan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Provides the angle in the range (-90,+90]\n' +
-        'degrees with the given sine value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ASIN = 'Verilen sinüs değerinin (-90,+90]\n' +
+        'aralığındaki açı derecesini verir.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ASIN = 'https://docs.kodular.io/blocks/math#asin';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Provides the angle in the range [0, 180)\n' +
-        'degrees with the given cosine value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ACOS = 'Verilen kosinüs değerinin [0, 180)\n' +
+        'aralığındaki açı derecesini verir.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ACOS = 'https://docs.kodular.io/blocks/math#acos';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Provides the angle in the range (-90, +90)\n' +
-        'degrees with the given tangent value.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN = 'Verilen tanjant değerinin (-90, +90)\n' +
+        'aralığındaki açı derecesini verir.';
     ATAN : Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN = 'https://docs.kodular.io/blocks/math#atan';
-    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Provides the angle in the range (-180, +180]\n' +
-        'degrees with the given rectangular coordinates.';
+    Blockly.Msg.LANG_MATH_TRIG_TOOLTIP_ATAN2 = 'Verilen dikdörtgen koordinat değerlerinin (-180, +180]\n' +
+        'aralığındaki açı derecesini verir.';
     Blockly.Msg.LANG_MATH_TRIG_HELPURL_ATAN2 = 'https://docs.kodular.io/blocks/math#atan2';
 
     Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MIN = 'min';
-    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'max';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MIN = 'Return the smallest of its arguments..';
-    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Return the largest of its arguments..';
+    Blockly.Msg.LANG_MATH_ONLIST_OPERATOR_MAX = 'maks';
+    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MIN = 'Parametrelerin en küçüğünü döndürür...';
+    Blockly.Msg.LANG_MATH_ONLIST_TOOLTIP_MAX = 'Parametrelerin en büyüğünü döndürür..';
 
     Blockly.Msg.LANG_MATH_DIVIDE = '\u00F7';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'modulo of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'remainder of';
-    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'quotient of';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Return the modulo.';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_MODULO = 'mod bul';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_REMAINDER = 'kalanı bul';
+    Blockly.Msg.LANG_MATH_DIVIDE_OPERATOR_QUOTIENT = 'bölümü bul';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_MODULO = 'Modunu döndürür.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_MODULO = 'https://docs.kodular.io/blocks/math#modulo';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Return the remainder.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_REMAINDER = 'Kalanı döndürür.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_REMAINDER = 'https://docs.kodular.io/blocks/math#remainder';
-    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Return the quotient.';
+    Blockly.Msg.LANG_MATH_DIVIDE_TOOLTIP_QUOTIENT = 'Bölümü döndürür.';
     Blockly.Msg.LANG_MATH_DIVIDE_HELPURL_QUOTIENT = 'https://docs.kodular.io/blocks/math#quotient';
 
     Blockly.Msg.LANG_MATH_RANDOM_INT_HELPURL = 'https://docs.kodular.io/blocks/math#randomint';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'random integer';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = 'to';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = 'random integer from %1 to %2';
-    Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Returns a random integer between the upper bound\n' +
-        'and the lower bound. The bounds will be clipped to be smaller\n' +
-        'than 2**30.';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_TITLE_RANDOM = 'rastgele tamsayı';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_FROM = 'şu ile';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT_TO = 'bu arasında';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_INPUT = '%1 arasında %2 tam sayı';
+    Blockly.Msg.LANG_MATH_RANDOM_INT_TOOLTIP = 'Daha üstteki sayı ile daha alttaki sayı arasında\n' +
+        'rastgele bir tamsayı oluşturur. Sınırlar 2**30\'dan daha küçük olacak\n' +
+        'şekilde kırpılacaktır.';
 
     Blockly.Msg.LANG_MATH_RANDOM_FLOAT_HELPURL = 'https://docs.kodular.io/blocks/math#randomfrac';
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TITLE_RANDOM = 'random fraction';
-    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TOOLTIP = 'Return a random number between 0 and 1.';
+    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TITLE_RANDOM = 'rastgele kesir';
+    Blockly.Msg.LANG_MATH_RANDOM_FLOAT_TOOLTIP = '0 ve 1 arasında rastgele bir sayı döndür.';
 
     Blockly.Msg.LANG_MATH_RANDOM_SEED_HELPURL = 'https://docs.kodular.io/blocks/math#randomseed';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_TITLE_RANDOM = 'random set seed';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_INPUT_TO = 'to';
-    Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'specifies a numeric seed\n' +
-        'for the random number generator';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_TITLE_RANDOM = 'rastgele sınıfını ayarla';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_INPUT_TO = 'şu olarak';
+    Blockly.Msg.LANG_MATH_RANDOM_SEED_TOOLTIP = 'Rastgele sayı oluşturmak için\n' +
+        'sayısal bir sınıf belirtir';
 
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'convert';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_RAD_TO_DEG = 'radians to degrees';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = 'degrees to radians';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_RAD_TO_DEG = 'Returns the degree value in the range\n' +
-        '[0, 360) corresponding to its radians argument.';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TITLE_CONVERT = 'dönüştür';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_RAD_TO_DEG = 'radyanı dereceye';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_OP_DEG_TO_RAD = 'dereceyi radyana';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_RAD_TO_DEG = 'Radyan argümanına göre karşılığına gelen\n' +
+        '[0, 360) aralığında derece değeri döndürür.';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_RAD_TO_DEG = 'https://docs.kodular.io/blocks/math#convertrad';
-    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_DEG_TO_RAD = 'Returns the radian value in the range\n' +
-        '[-\u03C0, +\u03C0) corresponding to its degrees argument.';
+    Blockly.Msg.LANG_MATH_CONVERT_ANGLES_TOOLTIP_DEG_TO_RAD = 'Derece argümanına göre karşılığına gelen\n' +
+        '[-\u03C0, +\u03C0) aralığında radyan değeri döndürür.';
     Blockly.Msg.LANG_MATH_CONVERT_ANGLES_HELPURL_DEG_TO_RAD = 'https://docs.kodular.io/blocks/math#convertdeg';
 
     Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#format';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = 'format as decimal';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'number';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'places';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = 'format as decimal number %1 places %2';
-    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = 'Returns the number formatted as a decimal\n' +
-        'with a specified number of places.';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TITLE = 'ondalık olarak formatla';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_NUM = 'sayı';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT_PLACES = 'sıra';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_INPUT = '%1 sayısını %2 sıralı ondalık olarak formatla';
+    Blockly.Msg.LANG_MATH_FORMAT_AS_DECIMAL_TOOLTIP = 'Belirtilen sıra sayısı kadar\n' +
+        'sayıyı ondalıklı halde döndürür.';
 
     Blockly.Msg.LANG_MATH_IS_A_NUMBER_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_INPUT_NUM = 'is number?';
-    Blockly.Msg.LANG_MATH_IS_A_NUMBER_TOOLTIP = 'Tests if something is a number.';
+    Blockly.Msg.LANG_MATH_IS_A_NUMBER_INPUT_NUM = 'sayı mı?';
+    Blockly.Msg.LANG_MATH_IS_A_NUMBER_TOOLTIP = 'Bir şeyin sayı olup olmadığını kontrol eder.';
 
     Blockly.Msg.LANG_MATH_IS_A_DECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_INPUT_NUM = 'is Base 10?';
-    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_TOOLTIP = 'Tests if something is a string that represents a positive base 10 integer.';
+    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_INPUT_NUM = '10 tabanında mı?';
+    Blockly.Msg.LANG_MATH_IS_A_DECIMAL_TOOLTIP = 'Bir metnin pozitif onluk tabanlı tamsayı olup olmadığını kontrol eder.';
 
     Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_INPUT_NUM = 'is hexadecimal?';
-    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_TOOLTIP = 'Tests if something is a string that represents a hexadecimal number.';
+    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_INPUT_NUM = 'onaltılık mı?';
+    Blockly.Msg.LANG_MATH_IS_A_HEXADECIMAL_TOOLTIP = 'Bir metnin onaltılık sayı olup olmadığını kontrol eder.';
 
     Blockly.Msg.LANG_MATH_IS_A_BINARY_HELPURL = 'https://docs.kodular.io/blocks/math#isnumber';
-    Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = 'is binary?';
-    Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = 'Tests if something is a string that represents a binary number.';
+    Blockly.Msg.LANG_MATH_IS_A_BINARY_INPUT_NUM = 'ikilik mi?';
+    Blockly.Msg.LANG_MATH_IS_A_BINARY_TOOLTIP = 'Bir metnin ikilik sayı olup olmadığını kontrol eder.';
 
 
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = 'convert number';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = 'base 10 to hex';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TITLE_CONVERT = 'sayıyı dönüştür';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_HEX = 'taban 10\'dan onaltılığa';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_HEX = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = 'Takes a positive integer in base 10 and returns the string that represents the number in hexadecimal';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_HEX = '10 tabanından pozitif bir tamsayı alır ve onun onaltılık metin karşılığını döndürür.';
 
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = 'hex to base 10';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_HEX_TO_DEC = 'onaltılıktan taban 10\'a';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_HEX_TO_DEC = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = 'Takes a string that represents a number in hexadecimal and returns the string that represents the number in base 10';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_HEX_TO_DEC = 'Onaltılık bir sayı metni alır ve 10 tabanından pozitif metin karşılığını döndürür.';
 
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = 'base 10 to binary';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_DEC_TO_BIN = 'taban 10\'dan ikiliğe';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_DEC_TO_BIN = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = 'Takes a positive integer in base 10 and returns the string that represents the number in binary';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_DEC_TO_BIN = '10 tabanından pozitif bir tamsayı alır ve onun ikilik metin karşılığını döndürür.';
 
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = 'binary to base 10';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_OP_BIN_TO_DEC = 'ikilikten taban 10\'a';
     Blockly.Msg.LANG_MATH_CONVERT_NUMBER_HELPURL_BIN_TO_DEC = '';
-    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = 'Takes a string that represents a number in binary and returns the string that represents the number in base 10';
+    Blockly.Msg.LANG_MATH_CONVERT_NUMBER_TOOLTIP_BIN_TO_DEC = 'İkilik bir sayı metni alır ve 10 tabanından pozitif metin karşılığını döndürür.';
 
 // Text Blocks.
-    Blockly.Msg.LANG_CATEGORY_TEXT = 'Text';
+    Blockly.Msg.LANG_CATEGORY_TEXT = 'Metin';
     Blockly.Msg.LANG_TEXT_TEXT_HELPURL = 'https://docs.kodular.io/blocks/text#string';
-    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'A text string.';
+    Blockly.Msg.LANG_TEXT_TEXT_TOOLTIP = 'Bir metin yazısı.';
     Blockly.Msg.LANG_TEXT_TEXT_LEFT_QUOTE = '\u201C';
     Blockly.Msg.LANG_TEXT_TEXT_RIGHT_QUOTE = '\u201D';
 
     Blockly.Msg.LANG_TEXT_JOIN_HELPURL = 'https://docs.kodular.io/blocks/text#join';
-    Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = 'create text with';
-    Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = 'Appends all the inputs to form a single text string.\n'
-        + 'If there are no inputs, makes an empty text.';
-    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'join';
+    Blockly.Msg.LANG_TEXT_JOIN_TITLE_CREATEWITH = 'şununla metin oluştur';
+    Blockly.Msg.LANG_TEXT_JOIN_TOOLTIP = 'Tüm girişleri yanyana dizer ve bir metin yazısı haline getirir.\n'
+        + 'Eğer giriş yoksa, boş bir metin yaratır.';
+    Blockly.Msg.LANG_TEXT_JOIN_TITLE_JOIN = 'bağla';
 
-    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TITLE_ITEM = 'string';
+    Blockly.Msg.LANG_TEXT_JOIN_ITEM_TITLE_ITEM = 'metin';
     Blockly.Msg.LANG_TEXT_JOIN_ITEM_TOOLTIP = '';
 
     Blockly.Msg.LANG_TEXT_APPEND_HELPURL = 'http://www.liv.ac.uk/HPC/HTMLF90Course/HTMLF90CourseNotesnode91.html';
-    Blockly.Msg.LANG_TEXT_APPEND_TO = 'to';
-    Blockly.Msg.LANG_TEXT_APPEND_APPENDTEXT = 'append text';
-    Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = 'item';
-    Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = 'Append some text to variable "%1".';
+    Blockly.Msg.LANG_TEXT_APPEND_TO = 'şuna';
+    Blockly.Msg.LANG_TEXT_APPEND_APPENDTEXT = 'metin ekle';
+    Blockly.Msg.LANG_TEXT_APPEND_VARIABLE = 'öğe';
+    Blockly.Msg.LANG_TEXT_APPEND_TOOLTIP = '"%1" değişkenine bir takım metin ekler.';
 
     Blockly.Msg.LANG_TEXT_LENGTH_HELPURL = 'https://docs.kodular.io/blocks/text#length';
-    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Returns number of letters (including spaces)\n' +
-        'in the provided text.';
+    Blockly.Msg.LANG_TEXT_LENGTH_INPUT_LENGTH = 'uzunluk';
+    Blockly.Msg.LANG_TEXT_LENGTH_TOOLTIP = 'Verilen metindeki karakter sayısını\n' +
+        '(boşluklar dahil) döndürür.';
 
     Blockly.Msg.LANG_TEXT_ISEMPTY_HELPURL = 'https://docs.kodular.io/blocks/text#isempty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'is empty';
-    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Returns true if the length of the\n' + 'text is 0, false otherwise.';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_INPUT_ISEMPTY = 'boş mu';
+    Blockly.Msg.LANG_TEXT_ISEMPTY_TOOLTIP = 'Metnin uzunluğu 0 ise doğru,\n' + 'aski takdirde yanlış döndürür.';
 
     Blockly.Msg.LANG_TEXT_COMPARE_LT = ' <';
     Blockly.Msg.LANG_TEXT_COMPARE_EQUAL = ' =';
     Blockly.Msg.LANG_TEXT_COMPARE_GT = ' >';
     Blockly.Msg.LANG_TEXT_COMPARE_HELPURL = 'https://docs.kodular.io/blocks/text#compare';
-    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'compare texts';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'Tests whether text1 is lexicographically less than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is\n'
-        + 'considered smaller. Uppercase characters precede lowercase characters.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Tests whether text strings are identical, ie., have the same\n'
-        + 'characters in the same order. This is different from ordinary =\n'
-        + 'in the case where the text strings are numbers: 123 and 0123 are =\n'
-        + 'but not text =.';
-    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'Reports whether text1 is lexicographically greater than text2.\n'
-        + 'if one text is the prefix of the other, the shorter text is considered smaller.\n'
-        + 'Uppercase characters precede lowercase characters.';
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = "Produces text, like a text block.  The difference is that the \n"
-        + "text is not easily discoverable by examining the app's APK.  Use this when creating apps \n"
-        + "to distribute that include confidential information, for example, API keys.  \n"
-        + "Warning: This provides only very low security against expert adversaries.";
-    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Obfuscated Text';
+    Blockly.Msg.LANG_TEXT_COMPARE_INPUT_COMPARE = 'metni karşılaştır';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_LT = 'metin1\'in sözlük sırasında metin2\'den küçük olup olmadığını kontrol eder.\n'
+        + 'eğer bir metin diğerinin öneki ise, kısa olan metin daha küçük olarak düşünülecektir.\n'
+        + 'Küçük harf karakterler büyük harflerden daha üstündür.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Metin dizelerinin aynı olup olmadığını test eder., örnek, aynı karakterler\n'
+        + 'aynı sırada. This is different from ordinary =\n'
+        + 'Bu, metin dizelerinin sayı olması durumunda normalden farklıdır: 123 ve 0123 =\n'
+        + 'ancak metin değil =.';
+    Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'metin1\'in sözlük sırasında metin2\'den büyük olup olmadığını kontrol eder.\n'
+        + 'eğer bir metin diğerinin öneki ise, kısa olan metin daha küçük olarak düşünülecektir.\n'
+        + 'Küçük harf karakterler büyük harflerden daha üstündür.';
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_TOOLTIP = "Metin üretir, bir metin bloğu gibi.  Bunun farkı ise \n"
+        + "bu metnin uygulamanın APK'sında kolay kolay keşfedilmesini önler.  Bu bloğu API anahtarları gibi \n"
+        + "gizli bilgileri saklamak için kullanın.  \n"
+        + "Uyarı: Bu, uzman rakiplere karşı yalnızca çok düşük güvenlik sağlar.";
+    Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE = 'Gizlenmiş Metin';
     Blockly.Msg.LANG_TEXT_TEXT_OBFUSCATE_HELPURL = 'https://docs.kodular.io/blocks/text#obfuscatetext';
 
     /*Blockly.Msg.LANG_TEXT_ENDSTRING_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
@@ -610,42 +609,42 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      Blockly.Msg.LANG_TEXT_CHARAT_INPUT_INTEXT = 'in text';
      Blockly.Msg.LANG_TEXT_CHARAT_TOOLTIP = 'Returns the letter at the specified position.';*/
 
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'downcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Returns a copy of its text string argument converted to uppercase.';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_UPPERCASE = 'büyük harf';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_OPERATOR_DOWNCASE = 'küçük harf';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_UPPERCASE = 'Metnin büyük harflere çevrilmiş bir kopyasını döndürür.';
     Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_UPPERCASE = 'https://docs.kodular.io/blocks/text#upcase';
-    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Returns a copy of its text string argument converted to lowercase.';
+    Blockly.Msg.LANG_TEXT_CHANGECASE_TOOLTIP_DOWNCASE = 'Metnin küçük harflere çevrilmiş bir kopyasını döndürür.';
     Blockly.Msg.LANG_TEXT_CHANGECASE_HELPURL_DOWNCASE = 'https://docs.kodular.io/blocks/text#downcase';
 
     Blockly.Msg.LANG_TEXT_TRIM_HELPURL = 'https://docs.kodular.io/blocks/text#trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'trim';
-    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Returns a copy of its text string arguments with any\n'
-        + 'leading or trailing spaces removed.';
+    Blockly.Msg.LANG_TEXT_TRIM_TITLE_TRIM = 'kırp';
+    Blockly.Msg.LANG_TEXT_TRIM_TOOLTIP = 'Metnin ana veya sondaki boşlukların kaldırıldığı\n'
+        + 'bir kopyasını döndürür.';
 
     Blockly.Msg.LANG_TEXT_STARTS_AT_HELPURL = 'https://docs.kodular.io/blocks/text#startsat';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'starts at';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  text %1 piece %2';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Returns the starting index of the piece in the text.\n'
-        + 'where index 1 denotes the beginning of the text. Returns 0 if the\n'
-        + 'piece is not in the text.';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'şununla başlar';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'metin';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'parça';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  metin %1 parça %2';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Parçanın metindeki başlangıç pozisyonunu döndürür.\n'
+        + '1 sayısı metnin başını temsil eder. Eğer parça metinde\n'
+        + 'hiç yoksa 0 döndürür.';
 
     Blockly.Msg.LANG_TEXT_CONTAINS_HELPURL = 'https://docs.kodular.io/blocks/text#contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'contains';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'piece';
-    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'contains  text %1 piece %2';
-    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Tests whether the piece is contained in the text.';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_CONTAINS = 'içeriyor';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_TEXT = 'metin';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT_PIECE = 'parça';
+    Blockly.Msg.LANG_TEXT_CONTAINS_INPUT = 'içeriyor  metin %1 parça %2';
+    Blockly.Msg.LANG_TEXT_CONTAINS_TOOLTIP = 'Parçanın metinde olup olmadığını test eder.';
 
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL = '';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'at';
-    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'at (list)';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'split at first';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'split at first of any';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'split';
-    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'split at any';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_TEXT = 'metin';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT = 'şuradan';
+    Blockly.Msg.LANG_TEXT_SPLIT_INPUT_AT_LIST = 'şuradan (liste)';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST = 'ilkinde böl';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'herhangi birinin ilkinde böl';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'böl';
+    Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'herhangi birinde böl';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Divides the given text into two pieces using the location of the first occurrence of \n'
         + 'the text \'at\' as the dividing point, and returns a two-item list consisting of the piece \n'
         + 'before the dividing point and the piece after the dividing point. \n'
