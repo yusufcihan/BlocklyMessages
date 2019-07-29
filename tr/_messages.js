@@ -27,9 +27,9 @@ Blockly.Msg.tr.switch_language_to_turkish = {
   helpUrl: '',
   init: function() {
 // Context menus.
-    Blockly.Msg.UNDO = 'Geri al';
-    Blockly.Msg.REDO = 'Yeniden uygula';
-    Blockly.Msg.CLEAN_UP = 'Blokları temizle';
+    Blockly.Msg.UNDO = 'Geri Al';
+    Blockly.Msg.REDO = 'İleri Al';
+    Blockly.Msg.CLEAN_UP = 'Blokları Temizle';
     Blockly.Msg.DUPLICATE_BLOCK = 'Çoğalt';
     Blockly.Msg.REMOVE_COMMENT = 'Yorumu Kaldır';
     Blockly.Msg.ADD_COMMENT = 'Yorum Ekle';
@@ -38,64 +38,64 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.HORIZONTAL_PARAMETERS = 'Parametreleri Yatay Diz';
     Blockly.Msg.VERTICAL_PARAMETERS = 'Parametreleri Dikey Diz';
     Blockly.Msg.CONFIRM_DELETE = 'Silmeyi Onayla';
-    Blockly.Msg.DELETE_ALL_BLOCKS = "Tüm %1 blokları silmeyi onayla?";
-    Blockly.Msg.DELETE_BLOCK = 'Bloku Sil';
-    Blockly.Msg.DELETE_X_BLOCKS = 'Blokları %1 Sil';
-    Blockly.Msg.COLLAPSE_BLOCK = 'Bloku Küçült';
-    Blockly.Msg.EXPAND_BLOCK = 'Bloku Genişlet';
-    Blockly.Msg.DISABLE_BLOCK = 'Bloku Devre Dışı Bırak';
-    Blockly.Msg.ENABLE_BLOCK = 'Bloku Etkinleştir';
+    Blockly.Msg.DELETE_ALL_BLOCKS = "%1 bloğu silmek istiyor musunuz?";
+    Blockly.Msg.DELETE_BLOCK = 'Bloğu Sil';
+    Blockly.Msg.DELETE_X_BLOCKS = '%1 Bloğu Sil';
+    Blockly.Msg.COLLAPSE_BLOCK = 'Bloğu Küçült';
+    Blockly.Msg.EXPAND_BLOCK = 'Bloğu Genişlet';
+    Blockly.Msg.DISABLE_BLOCK = 'Bloğu Devre Dışı Bırak';
+    Blockly.Msg.ENABLE_BLOCK = 'Bloğu Etkinleştir';
     Blockly.Msg.HELP = 'Yardım';
-    Blockly.Msg.EXPORT_IMAGE = 'Blokları ekran görüntüsü olarak indir';
-    Blockly.Msg.COLLAPSE_ALL = 'Blokları küçült';
-    Blockly.Msg.EXPAND_ALL = 'Blokların hepsini genişlet';
+    Blockly.Msg.EXPORT_IMAGE = 'Blokları Resim Olarak İndir';
+    Blockly.Msg.COLLAPSE_ALL = 'Blokların Hepsini Küçült';
+    Blockly.Msg.EXPAND_ALL = 'Blokların Hepsini Genişlet';
     Blockly.Msg.ARRANGE_H = 'Blokları Yatay Diz';
     Blockly.Msg.ARRANGE_V = 'Blokları Dikey Diz';
-    Blockly.Msg.ARRANGE_S = 'Arrange Blocks Diagonally';
+    Blockly.Msg.ARRANGE_S = 'Blokları Çapraz Diz';
     Blockly.Msg.SORT_W = 'Blokları Genişliklerine Göre Sırala';
     Blockly.Msg.SORT_H = 'Blokları Yüksekliklerine Göre Sırala';
     Blockly.Msg.SORT_C = 'Blokları Kategorilerine Göre Sırala';
-    Blockly.Msg.COPY_TO_BACKPACK = 'Sırt çantasına ekle';
-    Blockly.Msg.COPY_ALLBLOCKS = 'Tüm blokları sırt çantasına kopyala';
-    Blockly.Msg.BACKPACK_GET = 'Tüm blokları sırt çantasından kopyala';
-    Blockly.Msg.BACKPACK_EMPTY = 'Sırt çantasını temizle';
+    Blockly.Msg.COPY_TO_BACKPACK = 'Sırt Çantasına Ekle';
+    Blockly.Msg.COPY_ALLBLOCKS = 'Tüm Blokları Sırt Çantasına Ekle';
+    Blockly.Msg.BACKPACK_GET = 'Tüm Blokları Sırt Çantasından Al';
+    Blockly.Msg.BACKPACK_EMPTY = 'Sırt Çantasını Temizle';
     Blockly.Msg.BACKPACK_CONFIRM_EMPTY = 'Sırt çantasını temizlemek istediğinizden emin misiniz?';
-    Blockly.Msg.BACKPACK_DOC_TITLE = "Sırt çantası hakkında bilgi";
+    Blockly.Msg.BACKPACK_DOC_TITLE = "Sırt Çantası Bilgisi";
     Blockly.Msg.SHOW_BACKPACK_DOCUMENTATION = "Sırt Çantası Dökümantasyonunu Göster";
-    Blockly.Msg.BACKPACK_DOCUMENTATION = "The Backpack is a copy/paste feature. It allows you to copy blocks from one project or screen " +
-   " and paste them into another project or screen. " +
-   " To copy, you can drag-and-drop blocks into the Backpack. To paste, click on the Backpack icon and " +
-   " drag-and-drop blocks into the workspace." +
-   "</p><p>If you leave Kodular with blocks left in your backpack, " +
-   " they will be there the next time you login." +
-   "</p><p>For further documentation and a 'how to' video, see:" +
+    Blockly.Msg.BACKPACK_DOCUMENTATION = "Sırt Çantası bir kopyala/yapıştır özelliğidir. Bir projeden veya ekrandan blokları kopyalayıp " +
+   " başka bir projeye ya da ekrana kopyalamanızı sağlar. " +
+   " Kopyalamak için, blokları Sırt Çantasına sürükleyip bırakın. Yapıştırmak için, Sırt Çantası simgesine tıklayın ve " +
+   " blokları çalışma alına sürükleyin." +
+   "</p><p>Eğer sırt çantanızda bloklar var iken Kodular'dan ayrılırsanız, " +
+   " bir sonraki girişinizde onları tekrar görebilirsiniz." +
+   "</p><p>Daha ayrıntılı bir dökümantasyon ve rehber videosu için:" +
    '</p><p><a href="https://docs.kodular.io/other/backpack.html" target="_blank">https://docs.kodular.io/other/backpack.html</a>';
-    Blockly.Msg.ENABLE_GRID = 'Enable Workspace Grid';
-    Blockly.Msg.DISABLE_GRID = 'Disable Workspace Grid';
-    Blockly.Msg.ENABLE_SNAPPING = 'Enable Snap to Grid';
-    Blockly.Msg.DISABLE_SNAPPING = 'Disable Snap to Grid';
+    Blockly.Msg.ENABLE_GRID = 'Çalışma Alanı Kılavuzunu Aktifleştir';
+    Blockly.Msg.DISABLE_GRID = 'Çalışma Alanı Kılavuzunu Devre Dışı Bırak';
+    Blockly.Msg.ENABLE_SNAPPING = 'Kılavuza Tutturmayı Etkinleştir';
+    Blockly.Msg.DISABLE_SNAPPING = 'Kılavuza Tutturmayı Devre Dışı Bırak';
 
 // Variable renaming.
     Blockly.Msg.CHANGE_VALUE_TITLE = 'Değeri değiştir:';
     Blockly.Msg.NEW_VARIABLE = 'Yeni değişken...';
     Blockly.Msg.NEW_VARIABLE_TITLE = 'Yeni değişken adı:';
     Blockly.Msg.RENAME_VARIABLE = 'Değişkenin adını değiştir...';
-    Blockly.Msg.RENAME_VARIABLE_TITLE = 'Tüm değişkenlerin adını değiştir "%1":';
+    Blockly.Msg.RENAME_VARIABLE_TITLE = 'Tüm "%1" değişkenlerin adını şununla değiştir:';
 
 // Toolbox.
     Blockly.Msg.VARIABLE_CATEGORY = 'Değişkenler';
-    Blockly.Msg.PROCEDURE_CATEGORY = 'Procedures';
+    Blockly.Msg.PROCEDURE_CATEGORY = 'Prosedürler';
 
 // Warnings/Errors
-    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "This block cannot be in a definition";
-    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Select a valid item in the drop down.";
-    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = "This is a duplicate event handler for this component.";
-    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "Component does not exist";
-    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "This block is not defined. Delete this block!";
+    Blockly.Msg.ERROR_BLOCK_CANNOT_BE_IN_DEFINTION = "Bu blok bir tanımda olamaz";
+    Blockly.Msg.ERROR_SELECT_VALID_ITEM_FROM_DROPDOWN = "Lütfen açılır menüden geçerli bir öğe seçin.";
+    Blockly.Msg.ERROR_DUPLICATE_EVENT_HANDLER = "Bu bileşen için bu olaydan birden fazla var.";
+    Blockly.Msg.ERROR_COMPONENT_DOES_NOT_EXIST = "Bileşen mevcut değil";
+    Blockly.Msg.ERROR_BLOCK_IS_NOT_DEFINED = "Bu blok tanımlı değil. Bu bloğu silin!";
 
 // Colour Blocks.
     Blockly.Msg.LANG_COLOUR_PICKER_HELPURL = 'https://docs.kodular.io/blocks/colors#basic';
-    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Click the square to pick a color.';
+    Blockly.Msg.LANG_COLOUR_PICKER_TOOLTIP = 'Renk seçmek için kutuya tıklayın.';
     Blockly.Msg.LANG_COLOUR_WHITE = 'beyaz';
     Blockly.Msg.LANG_COLOUR_LIGHT_GRAY = 'açık gri';
     Blockly.Msg.LANG_COLOUR_GRAY = 'gri';
@@ -109,139 +109,139 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_COLOUR_INDIGO = 'indigo';
     Blockly.Msg.LANG_COLOUR_BLUE = 'mavi';
     Blockly.Msg.LANG_COLOUR_LIGHT_BLUE = 'açık mavi';
-    Blockly.Msg.LANG_COLOUR_CYAN = 'cyan';
-    Blockly.Msg.LANG_COLOUR_TEAL = 'teal';
+    Blockly.Msg.LANG_COLOUR_CYAN = 'camgöbeği';
+    Blockly.Msg.LANG_COLOUR_TEAL = 'çamurcun';
     Blockly.Msg.LANG_COLOUR_GREEN = 'yeşil';
     Blockly.Msg.LANG_COLOUR_LIGHT_GREEN = 'açık yeşil';
-    Blockly.Msg.LANG_COLOUR_LIME = 'lime';
+    Blockly.Msg.LANG_COLOUR_LIME = 'limon';
     Blockly.Msg.LANG_COLOUR_YELLOW = 'sarı';
     Blockly.Msg.LANG_COLOUR_AMBER = 'amber';
     Blockly.Msg.LANG_COLOUR_ORANGE = 'turuncu';
     Blockly.Msg.LANG_COLOUR_DEEP_ORANGE = 'koyu turuncu';
     Blockly.Msg.LANG_COLOUR_BROWN = 'kahverengi';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'rengi böl';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR = 'rengi ayır';
     Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_HELPURL = 'https://docs.kodular.io/blocks/colors#split';
-    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "A list of four elements, each in the range 0 to 255, representing the red, green, blue and alpha components.";
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'rengi oluştur';
+    Blockly.Msg.LANG_COLOUR_SPLIT_COLOUR_TOOLTIP = "Dört elemandan oluşan bir liste, her biri 0 ile 255 arasında, kırmızı, yeşil, mavi ve alfa bileşenlerini temsil eder.";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR = 'renk oluştur';
     Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_HELPURL = 'https://docs.kodular.io/blocks/colors#make';
-    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "A color with the given red, green, blue, and optionally alpha components";
+    Blockly.Msg.LANG_COLOUR_MAKE_COLOUR_TOOLTIP = "Kırmızı, yeşil, mavi ve opsiyonel olarak afta bileşenleri ile verilen bir renk";
 
 // Control Blocks
     Blockly.Msg.LANG_CATEGORY_CONTROLS = 'Kontrol';
     Blockly.Msg.LANG_CONTROLS_IF_HELPURL = 'https://docs.kodular.io/blocks/control#if';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'If a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'If a value is true, then do the first block of statements.\n' +
-        'Otherwise, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.';
-    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'If the first value is true, then do the first block of statements.\n' +
-        'Otherwise, if the second value is true, do the second block of statements.\n' +
-        'If none of the values are true, do the last block of statements.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_1 = 'Eğer değer doğru ise, o zaman bir takım ifadeler yap.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_2 = 'Eğer değer doğru ise, o zaman ilk kısımdaki ifadeleri yap.\n' +
+        'Aksi takdirde, ikinci kısımdaki ifadeleri yap.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_3 = 'Eğer ilk değer doğru ise, ilk kısımdaki ifadeleri yap.\n' +
+        'Aksi takdirde, ikinci değer doğru ise, o zaman ikinci kısımdaki ifadeleri yap.';
+    Blockly.Msg.LANG_CONTROLS_IF_TOOLTIP_4 = 'Eğer ilk değer doğru ise, ilk kısımdaki ifadeleri yap.\n' +
+        'Aksi takdirde, ikinci değer doğru ise, o zaman ikinci kısımdaki ifadeleri yap.\n' +
+        'Eğer iki değer de doğru değilse, son kısımdaki ifadeleri yap.';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_IF = 'eğer';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'else if';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSEIF = 'değilse eğer';
     Blockly.Msg.LANG_CONTROLS_IF_MSG_ELSE = 'değilse';
-    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'öyleyse';
+    Blockly.Msg.LANG_CONTROLS_IF_MSG_THEN = 'o zaman';
 
     Blockly.Msg.LANG_CONTROLS_IF_IF_TITLE_IF = 'eğer';
-    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Ekle, kaldır, veya yerlerini değiştir\n' +
-        'to reconfigure this if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_IF_TOOLTIP = 'Bu eğer bloğunu yeniden düzenlemek için\n' +
+        'kısımların yerlerini değiştirin, ekleyin veya kaldırın.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'else if';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Add a condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TITLE_ELSEIF = 'değilse eğer';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSEIF_TOOLTIP = 'Eğer bloğuna yeni bir koşul ekle.';
 
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'else';
-    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Add a final, catch-all condition to the if block.';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TITLE_ELSE = 'değilse';
+    Blockly.Msg.LANG_CONTROLS_IF_ELSE_TOOLTIP = 'Eğer bloğuna tüm koşulları yakalayan bir son ekle.';
 
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_HELPURL = 'https://docs.kodular.io/blocks/control#while';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TITLE_REPEAT = 'tekrarla';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_INPUT_DO = 'yap';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_WHILE = 'iken';
     Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_OPERATOR_UNTIL = 'kadar';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'While a value is true, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'While a value is false, then do some statements.';
-    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_WHILE = 'Bir değer doğru olduğu sürece bir takım ifadeler uygula.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_UNTIL = 'Bir değer yanlış olduğu sürece bir takım ifadeler uygula.';
+    Blockly.Msg.LANG_CONTROLS_WHILEUNTIL_TOOLTIP_1 = 'Test kısmı doğru olduğu sürece \'yap\' kısmındaki olayları '
+        + 'yap.';
 
     Blockly.Msg.LANG_CONTROLS_FOR_HELPURL = '';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'count with';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_WITH = 'şununla say';
     Blockly.Msg.LANG_CONTROLS_FOR_INPUT_VAR = 'x';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'from';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'to';
-    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'do';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_FROM = 'buradan';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_TO = 'şuraya';
+    Blockly.Msg.LANG_CONTROLS_FOR_INPUT_DO = 'yap';
 
-    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Count from a start number to an end number.\n' +
-        'For each count, set the current count number to\n' +
-        'variable "%1", and then do some statements.';
+    Blockly.Msg.LANG_CONTROLS_FOR_TOOLTIP = 'Bir başlangıç sayısından bir bitiş sayısında kadar say.\n' +
+        'Her sayımda, "%1" adlı değişkene şu anki sayıyı ata.\n' +
+        'Ve sonra bir takım ifadeler yap.';
 
     Blockly.Msg.LANG_CONTROLS_FORRANGE_HELPURL = 'https://docs.kodular.io/blocks/control#forrange';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'numara';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'from';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'to';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'by';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'for number in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' in range';
-    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Runs the blocks in the \'do\' section for each numeric '
-        + 'value in the range from start to end, stepping the value each time.  Use the given '
-        + 'variable name to refer to the current value.';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_ITEM = 'her';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_VAR = 'sayı';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_START = 'için buradan';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_END = 'şuraya kadar';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_STEP = 'şu kadar ilerleyerek';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_DO = 'yap';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_TEXT = 'aralıktaki her sayı için';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_PREFIX = 'her ';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_INPUT_COLLAPSED_SUFFIX = ' şu aralıktaki';
+    Blockly.Msg.LANG_CONTROLS_FORRANGE_TOOLTIP = 'Başlangıç ve bitiş aralığındakı her sayı boyunca '
+        + '\'yap\' kısmındaki ifadeleri yap. Verilen değişken adını kullanarak '
+        + 'şu anki değeri al.';
 
     Blockly.Msg.LANG_CONTROLS_FOREACH_HELPURL = 'https://docs.kodular.io/blocks/control#foreach';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'for each';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'item';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'for item in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'for ';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' in list';
-    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Runs the blocks in the \'do\'  section for each item in '
-        + 'the list.  Use the given variable name to refer to the current list item.';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_ITEM = 'her';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_VAR = 'öğe';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_INLIST = 'için bu listeden';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_DO = 'yap';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_TEXT = 'listedeki her öğe için';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_PREFIX = 'her ';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_INPUT_COLLAPSED_SUFFIX = ' bu listedeki';
+    Blockly.Msg.LANG_CONTROLS_FOREACH_TOOLTIP = 'Listedeki her öğe için \'yap\' kısmındaki ifadeleri yap.'
+        + 'Verilen değişken adını kullanarak şu anki liste öğesini al.';
 
     Blockly.Msg.LANG_CONTROLS_GET_HELPURL = 'https://docs.kodular.io/blocks/control#get';
 
 
     Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_HELPURL = 'http://en.wikipedia.org/wiki/Control_flow';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'of loop';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'break out';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'continue with next iteration';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Break out of the containing loop.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Skip the rest of this loop, and\n' +
-        'continue with the next iteration.';
-    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Warning:\n' +
-        'This block may only\n' +
-        'be used within a loop.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_INPUT_OFLOOP = 'şu döngüyü';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_BREAK = 'kır';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_OPERATOR_CONTINUE = 'sonraki yinelemeye devam et';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_BREAK = 'Bulunduğu döngüyü kırıp iptal eder.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_TOOLTIP_CONTINUE = 'Döngünün devamını atla, ve\n' +
+        'sonraki yinelemeye devam et.';
+    Blockly.Msg.LANG_CONTROLS_FLOW_STATEMENTS_WARNING = 'Uyarı:\n' +
+        'Bu blok sadece bir dönügünün\n' +
+        'içinde iken kullanılabilir.';
 
     Blockly.Msg.LANG_CONTROLS_WHILE_HELPURL = 'https://docs.kodular.io/blocks/control#while';;
-    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'while';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TITLE = 'iken';
     Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_TEST = 'test';
-    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'while';
-    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Runs the blocks in the \'do\' section while the test is '
-        + 'true.';
+    Blockly.Msg.LANG_CONTROLS_WHILE_INPUT_DO = 'yap';
+    Blockly.Msg.LANG_CONTROLS_WHILE_COLLAPSED_TEXT = 'iken';
+    Blockly.Msg.LANG_CONTROLS_WHILE_TOOLTIP = 'Test kısmı doğru olduğu sürece'
+        + '\'yap\' kısmındaki ifadeleri yap.';
 
     Blockly.Msg.LANG_CONTROLS_CHOOSE_HELPURL = 'https://docs.kodular.io/blocks/control#choose';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'if'
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TITLE = 'eğer'
     Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_TEST = '';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'then';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'else';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'if';
-    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'If the condition being tested is true,'
-        + 'return the result of evaluating the expression attached to the \'then-return\' slot;'
-        + 'otherwise return the result of evaluating the expression attached to the \'else-return\' slot;'
-        + 'at most one of the return slot expressions will be evaluated.';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_THEN_RETURN = 'o zaman';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_INPUT_ELSE_RETURN = 'değilse';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_COLLAPSED_TEXT = 'eğer';
+    Blockly.Msg.LANG_CONTROLS_CHOOSE_TOOLTIP = 'Eğer koşul doğru ise, '
+        + '\'o zaman - döndür\' slotundaki ifadenin verdiği geri dönüş değerini gönderir;'
+        + 'aksi takdirde \'o zaman - döndür\' slotundaki ifadenin verdiği geri dönüş değerini gönderir;'
+        + 'en fazla dönüş yuvası ifadelerinden biri değerlendirilecektir.';
 
     Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_HELPURL = 'https://docs.kodular.io/blocks/control#doreturn';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'do';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = 'Runs the blocks in \'do\' and returns a statement. Useful if you need to run a procedure before returning a value to a variable.';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'do/result';
-    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'do result';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_DO = 'yap';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_INPUT_RETURN = 'sonuç';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TOOLTIP = '\'yap\' kısmındaki ifadeleri yapar ve geri değer gönderir. Eğer değişkene değer atamadan önce bir prosedür çalıştırmak istiyorsanız kullanışlıdır.';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_COLLAPSED_TEXT = 'yap/sonuç';
+    Blockly.Msg.LANG_CONTROLS_DO_THEN_RETURN_TITLE = 'yap sonuç';
 
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'evaluate but ignore result'
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TITLE = 'çalıştır ama sonucu yoksay'
     Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_HELPURL = 'https://docs.kodular.io/blocks/control#evaluate';
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'eval but ignore'
-    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Runs the connected block of code and ignores the return value (if any). Useful if need to call a procedure with a return value but don\'t need the value.';
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_COLLAPSED_TEXT = 'çalıştır ama yoksay'
+    Blockly.Msg.LANG_CONTROLS_EVAL_BUT_IGNORE_TOOLTIP = 'Kendisine bağlı bloğu çalıştırır ve geri dönüş değerini görmezden gelir. (eğer varsa) Eğer prosedürü çalıştırmanız lazımsa ve geri dönüş değerine ihtiyacınız yoksa kullanışlıdır.';
 
     /* [lyn, 10/14/13] Removed for now. May come back some day.
      Blockly.Msg.LANG_CONTROLS_NOTHING_TITLE = 'nothing';
@@ -250,32 +250,32 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      */
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_HELPURL = 'https://docs.kodular.io/blocks/control#openscreen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'open another screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'open screen';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Opens a new screen in a multiple screen app.';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TITLE = 'başka bir ekran aç';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_INPUT_SCREENNAME = 'ekran Adı';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_COLLAPSED_TEXT = 'ekran aç';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_TOOLTIP = 'Çoklu ekran uygulamasında yeni bir ekran açar.';
 
     Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#openscreenwithvalue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'open another screen with start value';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'open screen with value'
-    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Opens a new screen in a multiple screen app and passes the '
-        + 'start value to that screen.';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TITLE = 'başlangıç değeriyle başka bir ekran aç';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_SCREENNAME = 'ekran Adı';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_INPUT_STARTVALUE = 'ekran Değeri';
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_COLLAPSED_TEXT = 'değer ile ekran aç'
+    Blockly.Msg.LANG_CONTROLS_OPEN_ANOTHER_SCREEN_WITH_START_VALUE_TOOLTIP = 'Çoklu ekran uygulamasında yeni bir ekran açar ve '
+        + 'o ekrana başlangıç değeri verir.';
 
     Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#getstartvalue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'screenName';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'startValue';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'get start value';
-    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Returns the value that was passed to this screen when it '
-        + 'was opened, typically by another screen in a multiple-screen app. If no value was '
-        + 'passed, returns the empty text.';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TITLE = 'başlangıç değerini al';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_SCREENNAME = 'ekran Adı';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_INPUT_STARTVALUE = 'başlangıç Değeri';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_COLLAPSED_TEXT = 'başlangıç değerini al';
+    Blockly.Msg.LANG_CONTROLS_GET_START_VALUE_TOOLTIP = 'Bu ekran açıldığında bu ekrana verilen değeri döndürür. '
+        + 'Tipik olarak çoklu-ekran uygulaması tarafından. Eğer hiç değer yollanmamış ise '
+        + 'boş metin döndürür.';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_HELPURL = 'https://docs.kodular.io/blocks/control#closescreen';;
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'close screen';
-    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Close the current screen';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TITLE = 'ekranı kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_COLLAPSED_TEXT = 'ekranı kapat';
+    Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_TOOLTIP = 'Şu anki ekranı kapatır';
 
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_HELPURL = 'https://docs.kodular.io/blocks/control#closescreenwithvalue';;
     Blockly.Msg.LANG_CONTROLS_CLOSE_SCREEN_WITH_VALUE_TITLE = 'close screen with value';
