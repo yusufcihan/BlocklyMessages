@@ -575,7 +575,6 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         + 'eğer bir metin diğerinin öneki ise, kısa olan metin daha küçük olarak düşünülecektir.\n'
         + 'Küçük harf karakterler büyük harflerden daha üstündür.';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_EQUAL = 'Metin dizelerinin aynı olup olmadığını test eder., örnek, aynı karakterler\n'
-        + 'aynı sırada. This is different from ordinary =\n'
         + 'Bu, metin dizelerinin sayı olması durumunda normalden farklıdır: 123 ve 0123 =\n'
         + 'ancak metin değil =.';
     Blockly.Msg.LANG_TEXT_COMPARE_TOOLTIP_GT = 'metin1\'in sözlük sırasında metin2\'den büyük olup olmadığını kontrol eder.\n'
@@ -625,7 +624,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_STARTS_AT = 'şununla başlar';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_TEXT = 'metin';
     Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT_PIECE = 'parça';
-    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'starts at  metin %1 parça %2';
+    Blockly.Msg.LANG_TEXT_STARTS_AT_INPUT = 'şununla başlar  metin %1 parça %2';
     Blockly.Msg.LANG_TEXT_STARTS_AT_TOOLTIP = 'Parçanın metindeki başlangıç pozisyonunu döndürür.\n'
         + '1 sayısı metnin başını temsil eder. Eğer parça metinde\n'
         + 'hiç yoksa 0 döndürür.';
@@ -645,20 +644,17 @@ Blockly.Msg.tr.switch_language_to_turkish = {
     Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_FIRST_OF_ANY = 'herhangi birinin ilkinde böl';
     Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT = 'böl';
     Blockly.Msg.LANG_TEXT_SPLIT_OPERATOR_SPLIT_AT_ANY = 'herhangi birinde böl';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Divides the given text into two pieces using the location of the first occurrence of \n'
-        + 'the text \'at\' as the dividing point, and returns a two-item list consisting of the piece \n'
-        + 'before the dividing point and the piece after the dividing point. \n'
-        + 'Splitting "apple,banana,cherry,dogfood" with a comma as the splitting point \n'
-        + 'returns a list of two items: the first is the text "apple" and the second is the text \n'
-        + '"banana,cherry,dogfood". \n'
-        + 'Notice that the comma after "apple" does not appear in the result, \n'
-        + 'because that is the dividing point.';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST = 'Metnin ilk \'şuradan\' kısmını bölme noktası olarak kullanarak verilen metni iki parçaya böler \n'
+        + 've bölme noktasından önceki parçadan ve bölme noktasından sonraki parçadan oluşan iki maddeli bir liste döndürür. \n'
+        + '"Elma,muz,kiraz,köpek maması" nın virgülde ayrılması sonucunda, iki öğe içeren bir liste döndürür:\n'
+        + 'ilki "Elma", ikincisi ise "muz,kiraz,köpek maması"\n'
+        + '"Elma"nın yanında bulunan virgülün sonuçta gözükmediğine dikkat edin, çünkü o bir bölme noktasıdır.';
+    
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST = 'https://docs.kodular.io/blocks/text#splitat';
-    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Divides the given text into a two-item list, using the first location of any item \n'
-        + 'in the list \'at\' as the dividing point. \n\n'
-        + 'Splitting "I love apples bananas apples grapes" by the list "(ba,ap)" returns \n'
-        + 'a list of two items, the first being "I love" and the second being \n'
-        + '"ples bananas apples grapes."';
+    Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT_AT_FIRST_OF_ANY = 'Listedeki herhangi bir öğenin ilk konumunu bölme noktası olarak kullanarak, \n'
+        + 'verilen metni iki maddeli bir listeye böler. '
+        + '"Ben elma muz elma üzüm severim" cümlesini "(mu,el)" listesine bölme işleminden sonra iki öğeli bir liste döndürür. \n'
+        + 'İlki "Ben" ve ikincisi de "ma muz elma üzün severim" dir';
     Blockly.Msg.LANG_TEXT_SPLIT_HELPURL_SPLIT_AT_FIRST_OF_ANY = 'https://docs.kodular.io/blocks/text#splitatfirstofany';
     Blockly.Msg.LANG_TEXT_SPLIT_TOOLTIP_SPLIT = 'Divides text into pieces using the text \'at\' as the dividing points and produces a list of the results.  \n'
         + 'Splitting "one,two,three,four" at "," (comma) returns the list "(one two three four)". \n'
@@ -683,94 +679,93 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      Blockly.Msg.LANG_TEXT_PROMPT_TYPE_NUMBER = 'number';*/
 
     Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_HELPURL = 'https://docs.kodular.io/blocks/text#splitspaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'split at spaces';
-    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Split the text into pieces separated by spaces.';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_SPACES_TITLE = 'boşluklarda böl';
+    Blockly.Msg.LANG_TEXT_SPLIT_AT_TOOLTIP = 'Metni boşluklarda parçalara ayırır.';
 
     Blockly.Msg.LANG_TEXT_SEGMENT_HELPURL = 'https://docs.kodular.io/blocks/text#segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'start';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'length';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'segment  text %1 start %2 length %3';
-    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Extracts the segment of the given length from the given text\n'
-        + 'starting from the given text starting from the given position. Position\n'
-        + '1 denotes the beginning of the text.';
+    Blockly.Msg.LANG_TEXT_SEGMENT_TITLE_SEGMENT = 'parça';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_START = 'başlangıç';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_LENGTH = 'uzunluk';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT_TEXT = 'metin';
+    Blockly.Msg.LANG_TEXT_SEGMENT_INPUT = 'parça  metin %1 başlangıç %2 uzunluk %3';
+    Blockly.Msg.LANG_TEXT_SEGMENT_AT_TOOLTIP = 'Verilen uzunluktaki parçayı, verilen metnin\n'
+        + 'belirtilen başlangıç pozisyonundan başlayarak metinden çıkarır.  1. pozisyon\n'
+        + 'metnin ilk karakterini temsil eder.';
 
     Blockly.Msg.LANG_TEXT_REPLACE_ALL_HELPURL = 'https://docs.kodular.io/blocks/text#replaceall';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'segment';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'text';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'replace all';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'replace all text %1 segment %2 replacement %3';
-    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Returns a new text obtained by replacing all occurrences\n'
-        + 'of the segment with the replacement.';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_SEGMENT = 'parça';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_TEXT = 'metin';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TITLE_REPLACE_ALL = 'hepsini değiştir';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT_REPLACEMENT = 'şununla değiştir';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_INPUT = 'tüm metni değiştir %1 parça %2 şununla %3';
+    Blockly.Msg.LANG_TEXT_REPLACE_ALL_TOOLTIP = 'Segmentin tüm oluşumlarını şununla değiştir kısmı ile değiştirerek elde edilen yeni bir metni döndürür.';
 
     Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_HELPURL = 'http://appinventor.mit.edu/explore/ai2/support/blocks/text#isstring';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'is string?';
-    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Returns true if input is a string.';
+    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TITLE = 'metin mi?';
+    Blockly.Msg.LANG_TEXT_TEXT_IS_STRING_TOOLTIP = 'Eğer giriş bir metin ile doğru döndürür.';
 
 // Lists Blocks.
-    Blockly.Msg.LANG_CATEGORY_LISTS = 'Lists';
+    Blockly.Msg.LANG_CATEGORY_LISTS = 'Listeler';
 //Blockly.Msg.LANG_LISTS_CREATE_EMPTY_HELPURL = 'http://en.wikipedia.org/wiki/Linked_list#Empty_lists';
-    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'create empty list';
-//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Returns a list, of length 0, containing no data records';
+    Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TITLE = 'boş liste yap';
+//Blockly.Msg.LANG_LISTS_CREATE_EMPTY_TOOLTIP = 'Bir liste döndürür, uzunluğu sıfırdır, ve hiç bir veri içermez.';
 
     Blockly.Msg.LANG_LISTS_CREATE_WITH_EMPTY_HELPURL = 'https://docs.kodular.io/blocks/lists#makealist';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'make a list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'Create a list with any number of items.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TITLE_MAKE_LIST = 'liste yap';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_TOOLTIP = 'İstediğiniz sayıda öğe içeren bir liste oluşturur.';
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'list';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TITLE_ADD = 'liste';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_CONTAINER_TOOLTIP = 'Bu liste bloğunu yeniden düzenlemek için\n' +
+        'kısımların yerlerini değiştirin, ekleyin veya kaldırın.
 
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Add an item to the list.';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TITLE = 'öğe';
+    Blockly.Msg.LANG_LISTS_CREATE_WITH_ITEM_TOOLTIP = 'Listeye bir öğe ekler.';
 
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'item';
-    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Add an item to the list.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TITLE = 'öğe';
+    Blockly.Msg.LANG_LISTS_ADD_ITEM_TOOLTIP = 'Listeye bir öğe ekler.';
     Blockly.Msg.LANG_LISTS_ADD_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#additems';
 
     Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_HELPURL = 'https://docs.kodular.io/blocks/lists#selectlistitem';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'select list item';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'select list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Returns the item at position index in the list.';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TITLE_SELECT = 'liste öğesi seç';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT_INDEX = 'pozisyon';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_INPUT = 'liste öğesi seç  liste %1 pozisyon %2';
+    Blockly.Msg.LANG_LISTS_SELECT_ITEM_TOOLTIP = 'Listeden belirtilen pozisyondaki öğeyi döndürür.';
 
     Blockly.Msg.LANG_LISTS_IS_IN_HELPURL = 'https://docs.kodular.io/blocks/lists#inlist';
-    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'is in list?';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'is in list? thing %1 list %2'
-    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Returns true if the the thing is an item in the list, and '
-        + 'false if not.';
+    Blockly.Msg.LANG_LISTS_IS_IN_TITLE_IS_IN = 'listede mi?';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_THING = 'şu';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_IS_IN_INPUT = 'listede mi? şey %1 liste %2';
+    Blockly.Msg.LANG_LISTS_IS_IN_TOOLTIP = 'Eğer öğe listedeyse doğru, değilse yanlış döndürür.';
 
     Blockly.Msg.LANG_LISTS_POSITION_IN_HELPURL = 'https://docs.kodular.io/blocks/lists#indexinlist';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'index in list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'index in list  thing %1 list %2';
-    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Find the position of the thing in the list. If it\'s not in '
-        + 'the list, return 0.';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TITLE_POSITION = 'listedeki pozisyon';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_THING = 'şey';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_INPUT = 'listedeki pozisyon  şey %1 liste %2';
+    Blockly.Msg.LANG_LISTS_POSITION_IN_TOOLTIP = 'Bir şeyin listedeki pozisyon numarasını bulur. Eğer listede yoksa '
+        + '0 döndürür.';
 
     Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#pickrandomitem';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'pick a random item';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Pick an item at random from the list.';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TITLE_PICK_RANDOM = 'rastegele öğe seç';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_PICK_RANDOM_TOOLTIP = 'Listeden rastgele bir öğe seçer.';
 
     Blockly.Msg.LANG_LISTS_REPLACE_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#replace';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'replace list item';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'replacement';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'replace list item  list %1 index %2 replacement %3';
-    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Replaces the nth item in a list.';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TITLE_REPLACE = 'liste öğesi değiştir';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_INDEX = 'pozisyon';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT_REPLACEMENT = 'şununla değiştir';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_INPUT = 'liste öğesini değiştir  liste %1 pozisyon %2 şununla değiştir %3';
+    Blockly.Msg.LANG_LISTS_REPLACE_ITEM_TOOLTIP = 'Listeden belirtilen pozisyondaki öğeyi başka bir şey ile değiştirir.';
 
     Blockly.Msg.LANG_LISTS_REMOVE_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#removeitem';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'remove list item';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'index';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'remove list item  list %1 index %2';
-    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Removes the item at the specified position from the list.';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TITLE_REMOVE = 'liste öğesi kaldır';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT_INDEX = 'pozisyon';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_INPUT = 'liste öğesini kaldır  liste %1 pozisyon %2';
+    Blockly.Msg.LANG_LISTS_REMOVE_ITEM_TOOLTIP = 'Listeden belirtilen pozisyondaki öğeyi kaldırır.';
 
     /*Blockly.Msg.LANG_LISTS_REPEAT_HELPURL = 'http://publib.boulder.ibm.com/infocenter/lnxpcomp/v8v101/index.jsp?topic=%2Fcom.ibm.xlcpp8l.doc%2Flanguage%2Fref%2Farsubex.htm';
      Blockly.Msg.LANG_LISTS_REPEAT_TITLE_CREATE = 'create list with item';
@@ -780,47 +775,47 @@ Blockly.Msg.tr.switch_language_to_turkish = {
      'repeated the specified number of times.';*/
 
     Blockly.Msg.LANG_LISTS_LENGTH_HELPURL = 'https://docs.kodular.io/blocks/lists#lengthoflist';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'length of list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'length of list list %1';
-    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Counts the number of items in a list.';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LENGTH = 'listenin uzunluğu';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_LENGTH_INPUT = 'listenin uzunluğu liste %1';
+    Blockly.Msg.LANG_LISTS_LENGTH_TOOLTIP = 'Listedeki öğe sayısını sayar.';
 
     Blockly.Msg.LANG_LISTS_APPEND_LIST_HELPURL = 'https://docs.kodular.io/blocks/lists#append';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'append to list';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'list1';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'list2';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT = 'append to list  list1 %1 list2 %2';
-    Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'Appends all the items in list2 onto the end of list1. After '
-        + 'the append, list1 will include these additional elements, but list2 will be unchanged.';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_TITLE_APPEND = 'listeyi bağla';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST1 = 'liste1';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT_LIST2 = 'liste2';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_INPUT = 'listeyi bağla  liste1 %1 liste2 %2';
+    Blockly.Msg.LANG_LISTS_APPEND_LIST_TOOLTIP = 'liste2\'deki tüm öğeleri liste1\'in sonuna ekler. Ekleme '
+        + 'işleminden sonra, liste1 bu ek öğeleri içerecektir, ancak liste2 değişmeyecektir.';
 
     Blockly.Msg.LANG_LISTS_ADD_ITEMS_HELPURL = 'https://docs.kodular.io/blocks/lists#additems';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TITLE_ADD = 'add items to list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_LIST = ' list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = 'item';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT = 'add items to list list %1 item %2';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TOOLTIP = 'Adds items to the end of a list.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TITLE_ADD = 'liste öğesi ekle';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_LIST = ' liste';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT_ITEM = 'öğe';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_INPUT = 'listeye öğe ekle liste %1 öğe %2';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_TOOLTIP = 'Bir listenin sonuna öğe ekler.';
 
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TITLE_ADD = 'list';
-    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TOOLTIP = 'Add, remove, or reorder sections to reconfigure this list block.';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TITLE_ADD = 'liste';
+    Blockly.Msg.LANG_LISTS_ADD_ITEMS_CONTAINER_TOOLTIP = 'Bu liste bloğunu yeniden düzenlemek için\n' +
+        'kısımların yerlerini değiştirin, ekleyin veya kaldırın.';
 
     Blockly.Msg.LANG_LISTS_COPY_HELPURL = 'https://docs.kodular.io/blocks/lists#copy';
-    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'copy list';
-    Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = 'list';
-    Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Makes a copy of a list, including copying all sublists';
+    Blockly.Msg.LANG_LISTS_COPY_TITLE_COPY = 'listeyi kopyala';
+    Blockly.Msg.LANG_LISTS_COPY_INPUT_LIST = 'liste';
+    Blockly.Msg.LANG_LISTS_COPY_TOOLTIP = 'Listenin bir kopyasını oluşturur, tüm alt listeler dahil.';
 
     Blockly.Msg.LANG_LISTS_IS_LIST_HELPURL = 'https://docs.kodular.io/blocks/lists#isalist';
-    Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = 'is a list?';
-    Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'thing';
-    Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Tests if something is a list.';
+    Blockly.Msg.LANG_LISTS_IS_LIST_TITLE_IS_LIST = 'liste mi?';
+    Blockly.Msg.LANG_LISTS_IS_LIST_INPUT_THING = 'şey';
+    Blockly.Msg.LANG_LISTS_IS_LIST_TOOLTIP = 'Bir şeyin liste olup olmadığını kontrol eder.';
 
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listtocsvrow';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TITLE_TO_CSV = 'listeden csv satırına';
     Blockly.Msg.LANG_LISTS_TO_CSV_ROW_INPUT_LIST = 'liste';
-    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TOOLTIP = 'Interprets the list as a row of a table and returns a CSV '
-        + '\(comma-separated value\) text representing the row. Each item in the row list is '
-        + 'considered to be a field, and is quoted with double-quotes in the resulting CSV text. '
-        + 'Items are separated by commas. The returned row text does not have a line separator at '
-        + 'the end.';
+    Blockly.Msg.LANG_LISTS_TO_CSV_ROW_TOOLTIP = 'Listeyi bir tablonun satırı olarak yorumlar ve satırı temsil eden bir CSV \(virgülle ayrılmış değer\) metni döndürür.'
+        + ' Satır listesindeki her öğe bir alan olarak kabul edilir'
+        + ' ve sonuçta elde edilen CSV metninde çift tırnak işareti alır. '
+        + 'Öğeler virgüllerle ayrılır. Döndürülen satır metninin sonunda bir satır ayırıcı yoktur.';
 
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_HELPURL = 'https://docs.kodular.io/blocks/lists#listfromcsvrow';
     Blockly.Msg.LANG_LISTS_FROM_CSV_ROW_TITLE_FROM_CSV = 'csv satırından liste';
@@ -846,7 +841,7 @@ Blockly.Msg.tr.switch_language_to_turkish = {
         + 'yeni satır karakteri ile ayrılabilir \(\\n\) ya da CRLF \(\\r\\n\) ile.';
 
     Blockly.Msg.LANG_LISTS_INSERT_ITEM_HELPURL = 'https://docs.kodular.io/blocks/lists#insert';
-    Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = 'liste öğesi ekle';
+    Blockly.Msg.LANG_LISTS_INSERT_TITLE_INSERT_LIST = 'liste öğesi yerleştir';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_LIST = 'liste';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_INDEX = 'pozisyon';
     Blockly.Msg.LANG_LISTS_INSERT_INPUT_ITEM = 'öğe';
